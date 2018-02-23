@@ -13,6 +13,9 @@
             color: #000066;
             font-family: "Microsoft YaHei UI Light";
         }
+        .auto-style3 {
+            color: #000066;
+        }
     </style>
 </head>
 <body style="background-color: #FFCC99">
@@ -20,6 +23,18 @@
         <div class="auto-style1">
             <h1 class="auto-style2">Koło naukowe &quot;Bezpiecznik&quot;</h1>
         </div>
-    </form>
 </body>
+    <body>
+        <table style="height: 55px; width: 82px">
+            <td>
+                <h2 class="auto-style3">Menu</h2>
+            </td>
+            <tr>
+            <td>
+                <asp:LinkButton ID="Członkowie" runat="server" OnClick="Page_Load">Członkowie</asp:LinkButton>
+                </td>
+            </tr>
+        </table>
+    </body>
+    </form>
 </html>
